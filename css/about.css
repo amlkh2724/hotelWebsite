@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.7em;
+}
+
+#main-footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+
+/* padding */
+.py-1 {
+    padding: 10px 0;
+}
+
+.py-2 {
+    padding: 20px 0;
+}
+
+.py-3 {
+    padding: 30px 0;
+}
+
+html,
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5em;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contianer {
+    background-color: #333;
+    color: white;
+    overflow: auto;
+}
+
+.fix {
+    margin: 0;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0px 40px;
+}
+
+.contianer a {
+    color: white;
+}
+
+.contianer h1 {
+    float: left;
+    padding-top: 8px;
+}
+
+.contianer ul {
+    list-style: none;
+    float: right;
+}
+
+.contianer ul li {
+    float: left;
+}
+
+.contianer ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+.contianer ul li a:hover {
+    background: black;
+    color: rgb(210, 189, 189);
+}
+
+.about-info,
+.info-right {
+    /* display: inline-block; */
+    float: right;
+    /* width: 50%; */
+    /* min-height: 100%; */
+    background-color: rgb(180, 159, 159);
+}
+
+.about-info,
+.info-right,
+img {
+    margin: auto;
+    width: 10%;
+    /* border-radius: 50%; */
+}
+
+.about-info,
+.info-left {
+    float: left;
+    width: 50%;
+    min-width: 100%
+}
+
+.contact {
+    color: orange;
+}
+
+.clr {
+    clear: both
+}
+
+.l-heading {
+    font-size: 1cm;
+}
+
+#testimonials {
+    height: 600px;
+    background: url(../img/test-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 40px;
+}
+
+#testimonials h2 {
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+    /* width: 100px; */
+}

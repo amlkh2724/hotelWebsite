@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+html,
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7sem;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contianer {
+    background-color: #333;
+    color: white;
+    overflow: auto;
+}
+
+.fix {
+    margin: 0;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0px 40px;
+}
+
+.contianer a {
+    color: white;
+}
+
+.contianer h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+.contianer ul {
+    list-style: none;
+    float: right;
+}
+
+.contianer ul li {
+    float: left;
+}
+
+.contianer ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+}
+
+.box i {
+    margin-bottom: 10px;
+}
+
+.bg-two,
+.bg-three,
+.bg-one {
+    background-color: #333;
+    border: 2px rgb(34, 26, 26) solid;
+    color: white;
+}
+
+
+
+#main-footer {
+    text-align: center;
+    background-color: rgb(34, 26, 26);
+    color: white;
+}
+
+.contact {
+    color: orange;
+}

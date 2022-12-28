@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5em;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.contianer {
+    background-color: #333;
+    color: white;
+    overflow: auto;
+}
+
+.fix {
+    margin: 0;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0px 40px;
+}
+
+.contianer a {
+    color: white;
+}
+
+.contianer h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+.contianer ul {
+    list-style: none;
+    float: right;
+}
+
+.contianer ul li {
+    float: left;
+}
+
+.contianer ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+.contianer ul li a:hover {
+    background: black;
+    color: rgb(210, 189, 189);
+}
+
+.content {
+    background-image: url(../img/showcase.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 80vh;
+}
+
+.container,
+.content {
+    color: white;
+    text-align: center;
+    /* padding-top: 170px; */
+}
+
+.container,
+.content h1 {
+    font-size: 60px;
+}
+
+.content {
+    padding-top: 170px;
+}
+
+.hover {
+    color: rgb(49, 174, 132);
+}
+
+.hover:hover {
+    color: #333;
+}
+
+.lead {
+    padding: 20px;
+    line-height: 30px;
+}
+
+.btn {
+    /* border: #333 2px solid; */
+    font-size: 1rem;
+    background: #333;
+    color: white;
+    margin-bottom: 20px;
+    padding: 13px 20px;
+    border-radius: 1.2rem;
+}
+
+.btn:hover {
+    background-color: beige;
+    color: black;
+}
+
+.btn-light {
+    background: rgb(245, 243, 239);
+    color: #333;
+
+}
+
+#home-info {
+    display: block;
+    height: 400px;
+    background-color: #333;
+}
+
+.info-img {
+    float: left;
+    width: 50%;
+    background: url(../img/photo-1.jpg) no-repeat center center/cover;
+    min-height: 100%;
+}
+
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box i {
+    margin-bottom: 10px;
+    /* background-color: #333; */
+}
+
+.bg-two,
+.bg-three,
+.bg-one {
+    background-color: rgb(149, 117, 59);
+    border: 2px rgb(34, 26, 26) solid;
+}
+
+.clr {
+    clear: both;
+}
+
+#main-footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+
+#home-info,
+.history {
+    text-align: center;
+    font-size: large;
+}
+
+#home-info .histor {
+    color: rgb(198, 152, 65);
+}
